@@ -16,7 +16,7 @@ print(num1 + num2)  # this will give output in string i.e 1020
 # if we want output in integer format
 
 num1 = int(input("Enter num1"))# 10
-num2 = int(input("Enter num2")) # 20
+num2 = int(input("Enter num2"))# 20
 
 print(num1 + num2)
 
