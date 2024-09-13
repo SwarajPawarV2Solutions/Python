@@ -6,10 +6,10 @@ print (type(A))
 print (type(b))
 print (type(c))
 
-# String concatination
+#String concatination
 
 print ("hello" + "world")
 
- #String Replication
+#String Replication
  
 print ("hello" * 5)  # It will print hello 5 times
