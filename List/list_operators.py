@@ -1,7 +1,13 @@
 # List concatination
 
-concat = [1,2,3] + ['A','B','C'] # This will join both List
-print(concat)
+list1 = [1,2,5,3] + [15,12,8,10,4] # This will join both List
+print(list1)
+
+
+
+# sort
+print(list1.sort())
+
 
 # List replication
 
