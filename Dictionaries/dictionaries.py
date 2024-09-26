@@ -78,5 +78,9 @@ allGuests = {'Ankit': {'samosa': 5,'jalebi':12},
             'pranav': {'chiwda': 3,'oreo':1}}
 
 print(allGuests)
+print(type(allGuests))
+allGuest1 = list(allGuests.keys())
+print(type(allGuest1))
+print(allGuest1.sort())
 
 
