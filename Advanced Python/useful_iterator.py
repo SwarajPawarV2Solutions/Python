@@ -52,3 +52,14 @@ print()
 is_even = lambda x: x % 2 == 0
 for val in filter(is_even, range(10)):
     print(val,end=' ')
+    
+print()
+
+# map
+is_even = lambda x: x % 2 == 0
+for val in map(is_even, range(10)):
+    print(val,end=' ')
+
+# lambda
+
+lambda n: n**2
