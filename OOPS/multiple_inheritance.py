@@ -83,4 +83,4 @@ class test(Geometry,ArithmaticOperations):
 my_test = test()
 my_test.info()
 print(my_test.area(2))
-print(my_test.square(5))
+print(my_test.square(2))
