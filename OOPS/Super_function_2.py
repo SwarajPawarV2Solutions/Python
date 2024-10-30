@@ -7,12 +7,9 @@ class base_class1():
     def add(self,a,b):
         self.a = a
         self.b = b
-        return  self.a + self.b
+        print (self.a + self.b)
     
     
-    
-    
-# child class
 
 class base_class2():
     def __init__(self):
