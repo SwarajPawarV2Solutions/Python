@@ -64,6 +64,8 @@ test_object = test_a()
 test_object.add(1,2)
 test_object.add(1,2,3)
 
+
+
 #  Method Overriding
 
 #  Method overriding is useful when we want to modify the behaviour of a methid in  subclass without changing the implementation in the superclass.
@@ -71,3 +73,16 @@ test_object.add(1,2,3)
 # It allows us to reuse code from the superclass while also customizing it to fit our specific needs in the subclass.
 
 # we have already seen method overriding without explicitly mentioning it in inheritance.
+
+
+# parent class 
+class tutorial():
+    def subject(self):
+        return "This is first tutorial"
+    
+class python(tutorial):
+    def subject(self):
+        return "This is python tutorial"
+    
+class_object = python()
+print(class_object.subject())
