@@ -20,14 +20,14 @@ class test():
 
 #  creating objects for test
 
-# passing integer value
+# passing integer values
 test_object1 = test(10)
 test_object2 = test(5)
 
 result = test_object1 + test_object2
 print(result)
 
-# passing string value
+# passing string values
 test_object1 = test('10')
 test_object2 = test('5')
 
@@ -45,7 +45,24 @@ print(result)
 # Python by default does not support method Overriding since two methods cannot have the same name in python.
 
 
+class test_a():
+    
+    def add(self,a,b):  # add() with 2 attributes
+        self.a = a
+        self.b = b
+        print (self.a + self.b)
+        
+    def add(self,a,b,c=0):  # add() with 3 attributes and if we want to give only 2 inputs then we also added c = 0 as default value so it will not give error of test_a.add() missing 1 required positional argument: 'c'.
+        self.a = a
+        self.b = b
+        self.c = c
+        print (self.a + self.b + self.c)
+        
+test_object = test_a()
 
+# calling add method
+test_object.add(1,2)
+test_object.add(1,2,3)
 
 #  Method Overriding
 
