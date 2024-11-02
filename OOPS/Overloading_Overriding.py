@@ -8,6 +8,33 @@
 # These operators work for built-in classes. but the same operator behaves differently with different types. 
 
 
+# operator overloading for + operator 
+
+class test():
+    def __init__(self,a):
+        self.a = a
+        
+    def __add__(self,other):
+        return self.a + other.a
+    
+
+#  creating objects for test
+
+# passing integer value
+test_object1 = test(10)
+test_object2 = test(5)
+
+result = test_object1 + test_object2
+print(result)
+
+# passing string value
+test_object1 = test('10')
+test_object2 = test('5')
+
+result = test_object1 + test_object2
+print(result)
+
+
 
 # Method Overloading
 
